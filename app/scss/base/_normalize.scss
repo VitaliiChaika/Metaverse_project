@@ -1,0 +1,51 @@
+*,
+*:after,
+*:before {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  line-height: 1;
+}
+
+
+a {
+  text-decoration: none;
+  outline: none;
+}
+
+li {
+  list-style-type: none;
+
+}
+
+ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+body {
+  font-family: $main-font;
+  font-size: $main-size;
+
+  color: white;
+  background: linear-gradient(180deg, #04153f 0.36%, #D946EF 201.02%);
+
+  word-break: break-word;
+  @media (max-width: 575px) {
+    font-size: 13px;
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+}
+
+.footer {
+  margin: auto 0 0 0;
+}

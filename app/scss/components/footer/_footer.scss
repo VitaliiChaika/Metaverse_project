@@ -1,0 +1,41 @@
+footer {
+  padding: 33px 0;
+
+  @media (max-width: 575px) {
+    padding: 10px 0;
+  }
+
+    &::before {
+      content: '';
+      display: block;
+      margin: 33px 0;
+      height: 1px;
+      width: 100%;
+      background: #969696;
+      opacity: 0.2;
+    }
+}
+
+
+
+.footer_text {
+  display: flex;
+  justify-content: space-between;
+
+  @media (max-width: 650px) {
+    p {margin-right: 50px}
+    flex-wrap: wrap;
+  }
+}
+
+.footer_nav {
+  display: flex;
+
+  @media (max-width: 400px) {
+    font-size: 12px;
+  }
+    p {
+      margin-right: 54px;
+
+    }
+}
